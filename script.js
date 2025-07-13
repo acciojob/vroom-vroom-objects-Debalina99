@@ -9,7 +9,7 @@ function Car(make, model) {
 
 
 
-function SportsCar(make, model, topSpeed) {
+function SportsCar(make, model, toSpeed) {
 	Car.call(this,make,model);
 		this.toSpeed=toSpeed;
 	}
